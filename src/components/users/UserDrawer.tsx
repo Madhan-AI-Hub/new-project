@@ -2,9 +2,6 @@ import React, { useState, useEffect } from 'react';
 import {
   Drawer,
   Dialog,
-  DialogTitle,
-  DialogContent,
-  DialogActions,
   IconButton,
   Typography,
   TextField,
@@ -19,7 +16,7 @@ import {
   Alert,
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import { User, Role } from '../../types';
+import { User } from '../../types';
 import { useUsers } from '../../app/providers/UserProvider';
 import { useAuth } from '../../app/providers/AuthProvider';
 import { canEditUser } from '../../utils/permissions';

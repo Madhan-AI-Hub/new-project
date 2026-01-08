@@ -1,7 +1,7 @@
 import React, { createContext, useState, useCallback, useMemo, ReactNode } from 'react';
 import { User, UserContextType, UserFilters, SortConfig } from '../../types';
 import * as api from '../../services/api';
-import { ROLES } from '../../utils/constants';
+
 
 const UserContext = createContext<UserContextType | undefined>(undefined);
 
