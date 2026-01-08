@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Role-Based User Dashboard</title>
+    
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        overflow: hidden;
+      }
+      
+      /* Custom scrollbar for all elements */
+      * {
+        scrollbar-width: thin;
+      }
+      
+      *::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      
+      *::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      
+      *::-webkit-scrollbar-thumb {
+        background: rgba(128, 128, 128, 0.3);
+        borderRadius: 4px;
+      }
+      
+      *::-webkit-scrollbar-thumb:hover {
+        background: rgba(128, 128, 128, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
